@@ -106,21 +106,14 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
 
 
           {/* Email */}
-          <div className="name-row">
           <input
             type="email"
             name="email"
             placeholder="Email Address*"
             required
           />
-           <input
-              type="date"
-              name="call_date"
-              required
-            />
 
-
-          </div>
+          
 
           {/* Phone Section */}
           <div className="phone-input-container flex gap-2">
